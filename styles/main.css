@@ -1,0 +1,140 @@
+/* ----- MAIN ----- */
+main {
+    height: 83.5%;
+}
+
+/* LOGO */
+.google-logo-section {
+    height: calc(100vh -560px);
+    min-height: 150px;
+    max-height: 290px;
+}
+.google-logo-container {
+    height: 100%;
+    max-height: 92px;    
+    margin-top: auto;
+    position: relative;
+}
+.google-logo {
+    width: auto;
+    width: 272px;
+    height: 92px;
+    max-width: 100%;
+    max-height: 100%;
+    
+    object-fit: contain;
+    object-position: center bottom;
+
+    aspect-ratio: auto 272 / 92;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.google-logo-text {
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+
+    color: #4285f4;
+    white-space: nowrap;
+    font: 16px / 16px Arial, sans-serif;
+}
+
+/* ----- FORM ----- */
+.form-section {
+    display: block;
+    max-height: 160px;
+    padding: 20px;
+}
+.google-form {
+    display: block;
+    margin-top: 0em;
+}
+.form-items-container {
+    position: relative;
+    width: auto;
+    max-width: 584px;
+
+    margin: 0 auto;
+    padding-top: 6px;
+}
+
+
+/* ----- FORM INPUT ----- */
+.input-container {
+    width: 638px;
+    max-width: 584px;
+    min-height: 44px;
+
+    margin-bottom: 10px;
+    align-items: center;
+
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    box-shadow: 0 2px 8px 1px rgba(64, 60, 67, .24);
+}
+.input-container:hover {
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
+}
+
+/* LOGO */
+#search-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+    margin-left: 14px;
+    opacity: 30%;
+}
+.input-box {
+    width: 80%;
+    height: 80%;
+    overflow-x: hidden;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+    line-height: 22px;
+    background-color: transparent;
+
+    word-wrap: break-word;
+    outline: none;
+    border: none;
+}
+
+/* ----- FORM BUTTONS ----- */
+.btn-container {
+    height: 70px;
+    padding-top: 18px;
+}
+.submit-btn {
+    height: 36px;
+    min-width: 54px;
+
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+
+    text-align: center;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+/* ----- FORM DIV ----- */
+.bottom-div {
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: block;
+}
