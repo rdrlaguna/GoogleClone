@@ -9,6 +9,7 @@ header {
     justify-content: end;
 }
 
+
 /* Nav */
 .nav-list {
     padding-right: 15px;
@@ -25,3 +26,23 @@ header {
     vertical-align: middle;
 }
 
+
+/* Grid icon */
+.grid-icon-container {
+    height: 40px;
+    width: 40px;
+    margin: auto;
+    padding: 8px;
+
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+.grid-icon-container:hover {
+    background-color: rgba(60, 64, 67, .08);
+}
+.grid-icon {
+    height: 24;
+    width: 24;
+    opacity: 0.5;
+}
