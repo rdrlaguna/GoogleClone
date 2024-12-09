@@ -50,3 +50,10 @@ footer {
 .cs50-text {
     text-align: center;
 }
+
+/* TERMS */
+.terms-container {
+    justify-content: flex-end;
+    min-width: 30%;
+    order: 3;
+}
