@@ -1,1 +1,40 @@
-/* MAIN */
+/* ----- MAIN ----- */
+main {
+    height: 83.5%;
+}
+
+/* LOGO */
+.google-logo-section {
+    height: calc(100vh -560px);
+    min-height: 150px;
+    max-height: 290px;
+}
+.google-logo-container {
+    height: 100%;
+    max-height: 92px;    
+    margin-top: auto;
+    position: relative;
+}
+.google-logo {
+    width: auto;
+    width: 272px;
+    height: 92px;
+    max-width: 100%;
+    max-height: 100%;
+    
+    object-fit: contain;
+    object-position: center bottom;
+
+    aspect-ratio: auto 272 / 92;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.google-logo-text {
+    position: absolute;
+    left: 215px;
+    bottom: 0;
+
+    color: #4285f4;
+    white-space: nowrap;
+    font: 16px / 16px Arial, sans-serif;
+}
