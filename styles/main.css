@@ -131,3 +131,10 @@ main {
     border: 1px solid #dadce0;
     color: #202124;
 }
+
+/* ----- FORM DIV ----- */
+.bottom-div {
+    flex-grow: 1;
+    flex-shrink: 0;
+    display: block;
+}
