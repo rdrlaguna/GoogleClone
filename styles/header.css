@@ -8,3 +8,20 @@ header {
     align-items: center;
     justify-content: end;
 }
+
+/* Nav */
+.nav-list {
+    padding-right: 15px;
+    margin-right: 8px;
+    justify-content: end;
+}
+.nav-li {
+    padding: 9px 15px 9px 0;
+    font: 13px / 27px Roboto, Arial, sans-serif;
+}
+.nav-li > a {
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
