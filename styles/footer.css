@@ -16,3 +16,22 @@ footer {
     padding: 0 20px;
     justify-content: space-between;
 }
+
+
+/* Left-side links */
+.left-links-container {
+    justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+.left-links {
+    width: 100%;
+}
+.ftr-link {
+    display: block;
+    padding: 15px;
+    cursor: pointer;
+}
+.ftr-link:hover {
+    text-decoration: underline;
+}
