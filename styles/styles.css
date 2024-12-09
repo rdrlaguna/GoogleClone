@@ -16,3 +16,15 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* ----- FLEX CLASSES ----- */
+.flex {
+    display: flex;
+}
+.f-cntr {
+    align-items: center;
+    justify-content: center;
+}
+.f-col {
+    flex-direction: column;
+}
