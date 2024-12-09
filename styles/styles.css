@@ -17,6 +17,7 @@ a:hover {
     text-decoration: underline;
 }
 
+
 /* ----- FLEX CLASSES ----- */
 .flex {
     display: flex;
@@ -27,4 +28,20 @@ a:hover {
 }
 .f-col {
     flex-direction: column;
+}
+
+
+/* ----- BODY ----- */
+body {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    min-width: 400px;
+
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #1f1f1f;
+    background: #fff;
+
+    overflow: hidden;
 }
