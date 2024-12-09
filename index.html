@@ -6,33 +6,37 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Add Google icon to tab title -->
         <link rel="shortcut icon" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png">
+
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="stylesheet" href="./styles/header.css">
     </head>
     <body>
         <!-- HEADER -->
         <header>
             <nav class="nav-bar">
 
-                <ul class ="nav-list">
+                <ul class ="nav-list flex">
                     <!-- Links to Images and Advanced -->
                      <li class="nav-li"><a href="./images.html">Images</a></li>
                      <li class="nav-li"><a href="./advanced">Advanced</a></li>
 
                     <!-- Grid icon -->
-                    <li class="grid-icon-container">
+                    <li class="grid-icon-container flex f-cntr">
                         <img alt="Grid menu icon"
                              src="https://ssl.gstatic.com/gb/images/bar/al-icon.png"
                              width="24"
-                             height="24">
+                             height="24"
+                             class="grid-icon">
                     </li>
                 </ul>
             </nav>
         </header>
 
         <!-- MAIN -->
-        <main>
+        <main class="flex f-col">
 
             <!-- Google logo -->
-            <div class="google-logo-section">
+            <div class="google-logo-section flex f-col f-cntr">
                 <div class="google-logo-container">
                     <img id="google-logo"
                          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
@@ -49,7 +53,7 @@
                     <div class="form-items-container">
 
                         <!-- Input field -->
-                        <div class="input-container">
+                        <div class="input-container flex">
                             <!-- Magnifier icon -->
                             <img id="search-logo"
                                  src="https://cdn-icons-png.flaticon.com/512/2618/2618254.png"
@@ -59,9 +63,9 @@
                         </div>
 
                         <!-- Submit buttons -->
-                        <div class="btn-container">
+                        <div class="btn-container flex f-cntr">
                             <input class="submit-btn" type="submit" value="Search with Google">
-                            <input class="submit-btn" type="submit" value="I'm Feeling Lucky">
+                            <input class="submit-btn" type="submit" value="I'm Feeling Lucky" name="btnl">
                         </div>
                     </div>
                 </form>
