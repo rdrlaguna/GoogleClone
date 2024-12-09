@@ -77,3 +77,27 @@ main {
     box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
     border-color: transparent;
 }
+
+/* LOGO */
+#search-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+    margin-left: 14px;
+    opacity: 30%;
+}
+.input-box {
+    width: 80%;
+    height: 80%;
+    overflow-x: hidden;
+
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: rgba(0,0,0,.87);
+    line-height: 22px;
+    background-color: transparent;
+
+    word-wrap: break-word;
+    outline: none;
+    border: none;
+}
