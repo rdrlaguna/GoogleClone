@@ -35,3 +35,18 @@ footer {
 .ftr-link:hover {
     text-decoration: underline;
 }
+
+/* CS50 */
+.cs50-container {
+    order: 2;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.duck-icon {
+    width: 25px;
+    height: 25px;
+}
+.cs50-text {
+    text-align: center;
+}
