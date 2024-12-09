@@ -38,3 +38,22 @@ main {
     white-space: nowrap;
     font: 16px / 16px Arial, sans-serif;
 }
+
+/* ----- FORM ----- */
+.form-section {
+    display: block;
+    max-height: 160px;
+    padding: 20px;
+}
+.google-form {
+    display: block;
+    margin-top: 0em;
+}
+.form-items-container {
+    position: relative;
+    width: auto;
+    max-width: 584px;
+
+    margin: 0 auto;
+    padding-top: 6px;
+}
