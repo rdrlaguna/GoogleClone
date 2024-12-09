@@ -1,1 +1,18 @@
 /* ----- FOOTER ----- */
+footer {
+    display: block;
+    flex-shrink: 0;
+    background: #f2f2f2;
+}
+.footer-top {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #1f1f1f;
+}
+.footer-bottom {
+    flex-wrap: wrap;
+    margin-bottom: 1px;
+    padding: 0 20px;
+    justify-content: space-between;
+}
