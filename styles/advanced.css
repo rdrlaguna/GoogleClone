@@ -46,6 +46,7 @@ main {
     border: 1px solid ebebeb;
 }
 
+
 /* FORM */
 .form-frame {
     max-width: 1140px;
@@ -67,6 +68,7 @@ main {
     padding-left: 5px;
     vertical-align: middle;
 }
+
 
 /* INPUT */
 .input-container {
@@ -98,4 +100,30 @@ main {
     display: table-cell;
     height: 30px;
     vertical-align: middle;
+}
+
+/* Input field */
+.line-box {
+    float: left;
+    width: 50%;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+}
+.input-field {
+    width: 100%;
+    height: 25px;
+
+    text-align: left;
+    font-size: 13px;
+    padding: 1px 8px;
+
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+}
+.input-field:focus {
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
+    border: 1px solid #4d90fe;
+    outline: none;
 }
