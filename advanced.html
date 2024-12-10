@@ -6,32 +6,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Add Google icon to tab title -->
         <link rel="shortcut icon" href="https://www.google.com/images/branding/googleg/1x/googleg_standard_color_128dp.png">
+
+        <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="stylesheet" href="./styles/header.css">
     </head>
     <body>
         <!-- HEADER -->
         <header>
             <nav class="nav-bar">
-                <div class="advance-header-container">
+                <div class="advance-header-container flex">
                     
                     <!-- Nav logo -->
-                     <div class="logo-container">
+                     <div class="logo-container flex">
                         <a class="logo-link" href="./index.html">
                             <span class="logo"></span>
                         </a>
                      </div>
 
-                    <ul class ="nav-list">
+                    <ul class ="nav-list flex">
                         <!-- Link to Google Search -->
-                         <li class="nav-li">
+                         <li class="nav-li flex f-cntr">
                             <a href="./index.html">Search</a>
                         </li>
     
                         <!-- Grid icon -->
-                        <li class="grid-icon-container">
+                        <li class="grid-icon-container flex f-cntr">
                             <img alt="Grid menu icon"
                                  src="https://ssl.gstatic.com/gb/images/bar/al-icon.png"
                                  width="24"
-                                 height="24">
+                                 height="24"
+                                 class="grid-icon">
                         </li>
                     </ul>
                 </div>
@@ -41,10 +45,220 @@
         <!-- MAIN -->
         <main>
 
+            <!-- Title -->
+            <div class="title-container">
+                <h3 class="title">Advanced search</h3>
+            </div>
+            <hr class="page-division">
+
+            <!-- Advanced Search Form -->
+            <section class="form-frame">
+                <form action="https://www.google.com/search">
+
+                    <!-- Form headers -->
+                    <div class="form-headers">
+                        <div class="line-text">
+                            <h5 class="header-text">Search for pages with...</h5>
+                        </div>
+                        <div class="line-box"></div>
+                        <div class="header-tip">
+                            <p>Do the following in the search box</p>
+                        </div>
+                    </div>
+
+                    <!-- Form input fields -->
+                    <div class="input-container">
+
+                        <!-- One line per input. 
+                        Each line has same format:
+                        1.Text - 2.Input - 3.tip -->
+
+                        <!-- First input line: all words -->
+                        <div class="input-line">
+                            <!-- Text desciption -->
+                            <div class="line-text input-text">
+                                <p>all these words:</p>
+                            </div>
+                        </div>
+
+                        <!-- Input field -->
+                        <div class="line-box">
+                            <input class="input-field"
+                            value
+                            autofocus="autofocus"
+                            name="as_q"
+                            type="text">
+                        </div>
+
+                        <!-- Usage tip -->
+                        <div class="line-tip">
+                            <div>
+                                <p>
+                                    Write the important words:
+                                    <span class="tip-example">
+                                        tricolor rat terrier
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Second input line: exact words -->
+                        <div class="input-line">
+                            <!-- Text desciption -->
+                            <div class="line-text input-text">
+                                <p>these exact word or prhase:</p>
+                            </div>
+                        </div>
+
+                        <!-- Input field -->
+                        <div class="line-box">
+                            <input class="input-field"
+                            value
+                            name="as_epq"
+                            type="text">
+                        </div>
+
+                        <!-- Usage tip -->
+                        <div class="line-tip">
+                            <div>
+                                <p>
+                                    Type the exact words in quotation marks:
+                                    <span class="tip-example">
+                                        "rat terrier"
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Third input line: any words -->
+                        <div class="input-line">
+                            <!-- Text desciption -->
+                            <div class="line-text input-text">
+                                <p>any of these words:</p>
+                            </div>
+                        </div>
+
+                        <!-- Input field -->
+                        <div class="line-box">
+                            <input class="input-field"
+                            value
+                            name="as_oq"
+                            type="text">
+                        </div>
+
+                        <!-- Usage tip -->
+                        <div class="line-tip">
+                            <div>
+                                <p>
+                                    Write OR between all the words you want
+                                    <span class="tip-example">
+                                        miniature OR standard
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Fourth input line: none words -->
+                        <div class="input-line">
+                            <!-- Text desciption -->
+                            <div class="line-text input-text">
+                                <p>none of these words:</p>
+                            </div>
+                        </div>
+
+                        <!-- Input field -->
+                        <div class="line-box">
+                            <input class="input-field"
+                            value
+                            name="as_eq"
+                            type="text">
+                        </div>
+
+                        <!-- Usage tip -->
+                        <div class="line-tip">
+                            <div>
+                                <p>
+                                    Add a minus sign in front of words you don't want to appear:
+                                    <span class="tip-example">
+                                        -rodent, -"Jack Russell"
+                                    </span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Submit button line -->
+                    <div class="input-line flex">
+                        <div class="line-text"></div>
+
+                        <!-- Submit button -->
+                        <div class="line-box">
+                            <input type="submit"
+                                   value="Advanced search"
+                                   class="submit-btn">
+                        </div>
+
+                        <div class="tip-example"></div>
+                    </div>
+
+                    <!-- Page division -->
+                    <div class="page-division form-division"></div>
+                </form>
+
+                <!-- More options -->
+                <div class="more-options">
+                    <div class="options-title line-text">
+                        <h5 class="header-text">
+                            You can also...
+                        </h5>
+                    </div>
+                </div>
+
+                <!-- Option list -->
+                <ul class="option-link-list">
+                    <li>
+                        <a class="option-link">
+                            Find pages similar to a URL
+                        </a>
+                    </li>
+                    <li>
+                        <a class="option-link">
+                            Search for visited pages
+                        </a>
+                    </li>
+                    <li>
+                        <a class="option-link">
+                            Using operators in the search box
+                        </a>
+                    </li>
+                    <li>
+                        <a class="option-link">
+                            Customize search settings
+                        </a>
+                    </li>
+                </ul>
+
+            </section>
         </main>
 
         <!-- FOOTER -->
         <footer>
+            <!-- Top section -->
+            <div class="footer-top">
+                <p>CS50</p>
+            </div>
+
+            <!-- Bottom section -->
+            <div class="footer-bottom flex">
+                <div class="ftr-link-container">
+                    <ul class="ftr-links-list flex">
+                        <li><a class="ftr-link">Aid</a></li>
+                        <li><a class="ftr-link">Privacy</a></li>
+                        <li><a class="ftr-link">Terms</a></li>
+                    </ul>
+                </div>
+            </div>
             
         </footer>
 
