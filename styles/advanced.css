@@ -183,6 +183,25 @@ main {
 }
 
 
+/* MORE OPTIONS */
+.more-options {
+    clear: both;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 90px;
+}
+.options-title {
+    min-height: 42px;
+}
+.option-link-list {
+    clear: both;
+}
+.option-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+
 
 
 
