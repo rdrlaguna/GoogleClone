@@ -3,6 +3,7 @@ main {
     height: 83.5%;
 }
 
+
 /* LOGO */
 .google-logo-section {
     height: calc(100vh -560px);
@@ -38,6 +39,7 @@ main {
     white-space: nowrap;
     font: 16px / 16px Arial, sans-serif;
 }
+
 
 /* ----- FORM ----- */
 .form-section {
@@ -78,6 +80,7 @@ main {
     border-color: transparent;
 }
 
+
 /* LOGO */
 #search-logo {
     width: 20px;
@@ -101,6 +104,7 @@ main {
     outline: none;
     border: none;
 }
+
 
 /* ----- FORM BUTTONS ----- */
 .btn-container {
@@ -132,9 +136,40 @@ main {
     color: #202124;
 }
 
+
 /* ----- FORM DIV ----- */
 .bottom-div {
     flex-grow: 1;
     flex-shrink: 0;
     display: block;
+}
+
+
+/* ----- MEDIA ----- */
+@media only screen and(max-width: 1200px) {
+    .footer-bottom {
+        justify-content: space-evenly
+    }
+}
+
+
+@media only screen and (max-width: 1240px) {
+    .cs50-container {
+        order: 0;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and(max-width: 630px) {
+    main,
+    .form-section,
+    .google-form,
+    .form-items-container,
+    .input-container,
+    .btn-container
+    {
+        width: 100%;
+    }
 }

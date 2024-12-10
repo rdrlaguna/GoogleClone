@@ -52,7 +52,7 @@ footer {
 }
 
 /* TERMS */
-.terms-container {
+.right-links-container {
     justify-content: flex-end;
     min-width: 30%;
     order: 3;
