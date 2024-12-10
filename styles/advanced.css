@@ -24,3 +24,8 @@
     width: 74px;
     vertical-align: middle;
 }
+
+/* ----- BODY ----- */
+main {
+    height: 82%;
+}
