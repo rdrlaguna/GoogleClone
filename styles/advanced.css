@@ -235,8 +235,12 @@ footer {
 }
 
 
-
-
-
-
+/* MEDIA */
+@media(max-width: 1056px) {
+    .line-tip,
+    .header-tip
+    {
+        display: none !important;
+    }
+}
 
