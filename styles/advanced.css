@@ -145,3 +145,46 @@ main {
     font-size: 11px;
     color: #666;
 }
+
+
+/* ----- SUBMIT ----- */
+.submit-btn {
+    float: right;
+    height: 30px;
+    min-width: 120px;
+    margin: 10px 0;
+    padding: 0 12px;
+
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+
+    white-space: nowrap;
+    user-select: none;
+    line-height: 100%;
+    cursor: default;
+
+    box-shadow: none;
+    border-radius: 2px;
+    color: #fff;
+    border: 1px solid #3079ed;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+}
+.submit-btn:hover {
+    border-image: initial;
+    border: 1px solid #2f5bb7;
+    background-color: #357ae8;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #357ae8);
+}
+.form-division {
+    margin: 18px 0;
+    clear: both;
+}
+
+
+
+
+
+
+
