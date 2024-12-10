@@ -45,3 +45,25 @@ main {
 .page-division {
     border: 1px solid ebebeb;
 }
+
+/* FORM */
+.form-frame {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+.header-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+.header-tip {
+    float:left;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+    vertical-align: middle;
+}
