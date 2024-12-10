@@ -1,1 +1,26 @@
 /* Styles for advanced.html */
+
+/* ----- NAV ----- */
+.nav-bar,
+.advance-header-container {
+    width: 100%;
+}
+.logo-container {
+    height: 48px;
+    flex: 1 1 auto;
+    overflow: hidden;
+    vertical-align: middle;
+    align-items: center;
+}
+.logo-link {
+    padding-left: 14px;
+}
+.logo {
+    content: url(
+        https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg
+    );
+    display: inline-block;
+    height: 24px;
+    width: 74px;
+    vertical-align: middle;
+}
