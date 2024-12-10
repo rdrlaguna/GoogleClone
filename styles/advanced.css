@@ -76,3 +76,26 @@ main {
 .input-line {
     clear: both;
 }
+
+/* Input text description */
+.line-text {
+    float: left;
+    width: 16%;
+    height: 42px;
+    min-width: 167px;
+    vertical-align: middle;
+}
+.input-text {
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+}
+.header-text,
+.header-tip > p,
+.line-text > p,
+.line-tip > div
+{
+    display: table-cell;
+    height: 30px;
+    vertical-align: middle;
+}
